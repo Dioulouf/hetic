@@ -38,34 +38,51 @@ include 'header.php';
 
         <section class="trending">
             <h2>Trending</h2>
+            <div class="arrows">
+                <img class="arrow-back" src="sources/icons/arrow-back.svg" alt="">
+                <img class="arrow-next" src="sources/icons/arrow-next.svg" alt="">
+            </div>
 
-            <div class="carroussel-article-1">
-                <img src="sources/images/article-carroussel-1.png" alt="">
-                <h4>Dolore magna aliqua</h4>
-                <P>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</P>
-                <div class="date-online" >
-                    <img src="sources/icons/horloge.png" alt="horloge">
-                    <p>2 min ago</p>
+            <div class="caroussel">
+                <div class="carroussel-article-1 caroussel-item">
+                    <img src="sources/images/article-carroussel-1.png" alt="">
+                    <h4>Dolore magna aliqua</h4>
+                    <P>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</P>
+                    <div class="date-online" >
+                        <img src="sources/icons/horloge.png" alt="horloge">
+                        <p>2 min ago</p>
+                    </div>
+                </div>
+                <div class="carroussel-article-2 caroussel-item">
+                    <img src="sources/images/article-carroussel-2.png" alt="">
+                    <h4>Morbi eleifend a libero</h4>
+                    <P>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</P>
+                    <div class="date-online" >
+                        <img src="sources/icons/horloge.png" alt="horloge">
+                        <p>2 min ago</p>
+                    </div>
+                </div>
+                <div class="carroussel-article-3 caroussel-item">
+                    <img src="sources/images/article-carroussel-3.png" alt="">
+                    <h4>Morbi eleifend a libero</h4>
+                    <P>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</P>
+                    <div class="date-online" >
+                        <img src="sources/icons/horloge.png" alt="horloge">
+                        <p>2 min ago</p>
+                    </div>
+                </div>
+                <div class="carroussel-article-4 caroussel-item">
+                    <img src="sources/images/article-carroussel-3.png" alt="">
+                    <h4>Morbi blabla 4</h4>
+                    <P>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</P>
+                    <div class="date-online" >
+                        <img src="sources/icons/horloge.png" alt="horloge">
+                        <p>2 min ago</p>
+                    </div>
                 </div>
             </div>
-            <div class="carroussel-article-2">
-                <img src="sources/images/article-carroussel-2.png" alt="">
-                <h4>Morbi eleifend a libero</h4>
-                <P>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</P>
-                <div class="date-online" >
-                    <img src="sources/icons/horloge.png" alt="horloge">
-                    <p>2 min ago</p>
-                </div>
-            </div>
-            <div class="carroussel-article-3">
-                <img src="sources/images/article-carroussel-3.png" alt="">
-                <h4>Morbi eleifend a libero</h4>
-                <P>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</P>
-                <div class="date-online" >
-                    <img src="sources/icons/horloge.png" alt="horloge">
-                    <p>2 min ago</p>
-                </div>
-            </div>
+
+            
         </section>
 
         <section class="happening">

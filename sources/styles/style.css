@@ -189,24 +189,62 @@ header nav ul li a.active {
 .trending {
     width: 80%;
     margin: auto;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
+    position: relative;
+    overflow-x: hidden;
 }
 
 .trending h2 {
     width: 100%;
 }
 
+.arrows {
+    width: 60px;
+    height: 20px;
+    position: absolute;
+    right: 0;
+    top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.arrow-back {
+    height: 20px;
+    cursor: pointer;
+    opacity: .3;
+    transition: opacity .4s;
+}
+
+.arrow-next {
+    height: 20px;
+    cursor: pointer;
+    transition: opacity .4s;
+}
+
+.caroussel {
+    width: 133%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 .trending .carroussel-article-1,
 .trending .carroussel-article-2,
-.trending .carroussel-article-3 {
+.trending .carroussel-article-3,
+.trending .carroussel-article-4 {
     height: 350px;
     background-color: white;
     border-radius: 5px;
+    transition: transform .4s;
+    cursor: pointer;
 }
 
-
+.trending .carroussel-article-1:hover,
+.trending .carroussel-article-2:hover,
+.trending .carroussel-article-3:hover,
+.trending .carroussel-article-4:hover {
+    transform: translateY(-10px);
+}
 
 
 
@@ -217,7 +255,6 @@ header nav ul li a.active {
     height: 1000px;
     width: 80%;
     margin: auto;
-    background-color: red;
 }
 
 
