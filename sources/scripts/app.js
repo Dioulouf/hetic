@@ -16,9 +16,6 @@
 
 
 
-
-
-
 document.addEventListener("DOMContentLoaded", () => {
 
     const items = document.querySelectorAll(".caroussel-item")

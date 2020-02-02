@@ -263,32 +263,34 @@ header nav ul li a.active {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* formulaire */
+
+
+
+.banniere-form {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/formulaire--baniere.jpg");
+    background-size: cover;
+}
+
+.banniere-form h1 {
+    color: white;
+    font-weight: 900;
+}
+
+input {
+    background-color: white;
+}
+
 
 form {
     height: 200px;
     width: 50%;
-    border-radius: 50px;
-    background-color: rgb(181, 250, 255);
+    background-color: rgb(26, 165, 26);
     margin: auto;
     display: flex;
     padding: 50px 20px;
@@ -297,25 +299,9 @@ form {
     align-items: center;
 }
 
-.entrer-chiffre {
-    height: 40px;
-    background-color: rgb(255, 255, 255);
-    width: 250px;
-    padding-left: 20px;
-    border: 1px solid rgb(0, 107, 194);
-    border-radius: 20px;
-}
-
-button {
-    background-color: tomato;
-    height: 40px;
+.form-example {
     width: 100px;
-    border-radius: 30px;
-    cursor: pointer;
-    opacity: .8;
-    transition: opacity .3s;
-}
-
-button:hover {
-    opacity: 1;
+    height: 30px;
+    background-color: red;
+    margin: 30px 0;
 }

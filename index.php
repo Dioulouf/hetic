@@ -2,7 +2,7 @@
 $activePage = "Accueil | mon super site web de voyage";
 include 'header.php';
 ?>
-<main>
+<main id="swup" class="transition-fade">
         <section class="hero">
             <div class="world-news">
                 <h1 class="big-title">World news</h1>

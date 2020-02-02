@@ -1,5 +1,5 @@
 <?php 
-$activePage = "Concact | contactez-nous pour avoir plus d'informations";
+$activePage = "Contact | contactez-nous pour avoir plus d'informations";
 $chiffreMystere = htmlentities($_GET[chiffre]) ; 
 $message = null;
 
@@ -20,16 +20,31 @@ include 'header.php';
 
 
 <main>
+    <div class="banniere-form">
+        <h1>Contact</h1>
+    </div>
 
-    <h1>Formulaire</h1>
-
-    <form action="contact.php" method="get">
-        <input type="number" class="entrer-chiffre" value='<?php echo $chiffreMystere;?>' name="chiffre" placeholder="entre un chiffre en 0 et 150">
-        <button type="submit">Deviner</button>
+    <form action="" method="get" class="form-example">
+        <div class="form-example">
+            <label for="name">Name : </label>
+            <input type="text" name="name" id="name" required>
+        </div>
+        <div class="form-example">
+            <label for="first-name">First-name : </label>
+            <input type="text" name="first-name" id="first-name" required>
+        </div>
+        <div class="form-example">
+            <label for="email">Enter your email : </label>
+            <input type="email" name="email" id="email" required>
+        </div>
+        <div class="form-example">
+            <label for="message">Your message : </label>
+            <input type="textarea" name="message" id="message" required>
+        </div>
+        <div class="form-example">
+            <input type="submit" value="Subscribe!">
+        </div>
     </form>
-
-
-   <p><?php echo messageMyster();?></p>
         
 
 
