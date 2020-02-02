@@ -66,10 +66,10 @@ include 'header.php';
                     <p>2 min ago</p>
                 </div>
             </div>
+        </section>
 
-
-
-
+        <section class="happening">
+            <h2>Happening now</h2>
         </section>
 
 

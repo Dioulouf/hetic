@@ -211,6 +211,14 @@ header nav ul li a.active {
 
 
 
+/*  section happening  */
+
+.happening {
+    height: 1000px;
+    width: 80%;
+    margin: auto;
+    background-color: red;
+}
 
 
 
