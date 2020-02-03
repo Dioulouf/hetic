@@ -284,13 +284,16 @@ header nav ul li a.active {
 
 input {
     background-color: white;
+    border-bottom: 1px solid black;
+    margin-left: 20px;
+    width: 170px;
+    height: 20px;
 }
 
 
 form {
-    height: 200px;
     width: 50%;
-    background-color: rgb(26, 165, 26);
+    background-color: rgb(219, 234, 243);
     margin: auto;
     display: flex;
     padding: 50px 20px;
@@ -300,8 +303,31 @@ form {
 }
 
 .form-example {
-    width: 100px;
-    height: 30px;
-    background-color: red;
-    margin: 30px 0;
+    width: 50%;
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+textarea {
+    background-color: white;
+    border: 1px solid black;
+    margin-left: 20px;
+}
+
+.form-example:last-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    padding: 10px 30px;
+    background-color: white;
+    cursor: pointer;
+}
+
+label {
+    font-size: 1.2rem;
 }

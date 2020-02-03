@@ -1,5 +1,17 @@
 <?php 
 
+// On démarre la session AVANT d'écrire du code HTML
+session_start();
+
+// On s'amuse à créer quelques variables de session dans $_SESSION
+$_SESSION['prenom'] = 'Jean';
+$_SESSION['nom'] = 'Dupont';
+$_SESSION['age'] = 24;
+
+
+
+
+
 function nav_item ($url){
     if ($_SERVER[SCRIPT_NAME] === $url) {
         echo "active";
@@ -31,9 +43,9 @@ function nav_item ($url){
             <img src="" alt="LOGO">
             <ul>
                 <li> <a class="<?php nav_item("/Hetic/Hetic/index.php");?> " href="index.php">home</a></li>
-                <li> <a class="<?php nav_item("/Hetic/Hetic/discovery.php");?> " href="#">discovery</a></li>
+                <li> <a class="<?php nav_item("/Hetic/Hetic/bdd.php");?> " href="bdd.php">bdd</a></li>
                 <li> <a class="<?php nav_item("/Hetic/Hetic/photos.php");?> " href="#">photos</a></li>
-                <li> <a class="<?php nav_item("/Hetic/Hetic/contact.php");?> " href="contact.php">contact</a></li>
+                <li> <a class="<?php nav_item("/Hetic/Hetic/contact.php");?> " href="contact.php?nom=Dupont&amp;prenom=Jean">contact</a></li>
             </ul>
         </nav>
     </header>

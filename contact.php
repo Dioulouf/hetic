@@ -24,25 +24,26 @@ include 'header.php';
         <h1>Contact</h1>
     </div>
 
-    <form action="" method="get" class="form-example">
+    <form action="contact-cible.php" method="post">
         <div class="form-example">
-            <label for="name">Name : </label>
-            <input type="text" name="name" id="name" required>
+            <label for="name">Last-name : </label>
+            <input type="text" name="name" id="name" value="<?php echo $_GET["nom"];?>" required>
         </div>
         <div class="form-example">
             <label for="first-name">First-name : </label>
-            <input type="text" name="first-name" id="first-name" required>
+            <input type="text" name="first-name" id="first-name" value="<?php echo $_GET["prenom"];?>" required>
         </div>
         <div class="form-example">
             <label for="email">Enter your email : </label>
-            <input type="email" name="email" id="email" required>
+            <input type="email" name="mail" id="email" required>
         </div>
         <div class="form-example">
-            <label for="message">Your message : </label>
-            <input type="textarea" name="message" id="message" required>
+            <label for="message">Your request : </label>
+            <!-- <input type="textarea" name="message" id="message" required> -->
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Your request..."></textarea>
         </div>
         <div class="form-example">
-            <input type="submit" value="Subscribe!">
+            <button type="submit">submit</button>
         </div>
     </form>
         

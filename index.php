@@ -1,5 +1,5 @@
 <?php 
-$activePage = "Accueil | mon super site web de voyage";
+$activePage = "Travel news | the last news abouts different travel...";
 include 'header.php';
 ?>
 <main id="swup" class="transition-fade">
