@@ -11,7 +11,6 @@ $_SESSION['age'] = 24;
 
 
 
-
 function nav_item ($url){
     if ($_SERVER[SCRIPT_NAME] === $url) {
         echo "active";
