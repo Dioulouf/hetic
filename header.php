@@ -45,6 +45,7 @@ function nav_item ($url){
                 <li> <a class="<?php nav_item("/Hetic/Hetic/bdd.php");?> " href="bdd.php">bdd</a></li>
                 <li> <a class="<?php nav_item("/Hetic/Hetic/photos.php");?> " href="#">photos</a></li>
                 <li> <a class="<?php nav_item("/Hetic/Hetic/contact.php");?> " href="contact.php?nom=Dupont&amp;prenom=Jean">contact</a></li>
+                <li><a class="<?php nav_item("/Hetic/Hetic/sql.php");?> " href="sql.php">SQL</a></li>
             </ul>
         </nav>
     </header>

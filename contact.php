@@ -1,19 +1,6 @@
 <?php 
 $activePage = "Contact | contactez-nous pour avoir plus d'informations";
-$chiffreMystere = htmlentities($_GET[chiffre]) ; 
 $message = null;
-
-
-function messageMyster () {
-    if ($chiffreMystere < 150) {
-        $message = "le chiffre à trouver est plus grand";
-    } else if ($chiffreMystere > 150) {
-        $message = "le chiffre à trouver est plus petit";
-    } else {
-        $message = "BRAVO ! Vous avez trouvé le bon chiffre";
-    }
-    return $message;
-};
 
 include 'header.php';
 ?>
